@@ -1,0 +1,23 @@
+!
+! Swap tilde and ESC
+! 
+keycode 9 = grave asciitilde 
+keycode 49 = Escape asciitilde
+
+keycode 133 = Alt_L
+keycode 64 = Super_L
+remove Mod1 = Alt_L
+remove Mod4 = Super_L
+add Mod1 = Super_L
+add Mod4 = Alt_L
+
+!
+! Swap Caps_Lock and Control_L
+!
+remove Lock = Caps_Lock
+remove Control = Control_L
+keysym Control_L = Caps_Lock
+keysym Caps_Lock = Control_L
+add Lock = Caps_Lock
+add Control = Control_L
+
