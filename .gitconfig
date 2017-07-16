@@ -1,0 +1,17 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	email = ezaurum@gmail.com
+	name = ezaurum
+[core]
+	editor = vi
+[merge]
+	tool = vimdiff
+[color]
+	branch = auto
+	status = auto
+	diff = auto
+	interactive = auto
